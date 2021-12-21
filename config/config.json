@@ -5,6 +5,6 @@
     "apiURL": "https://23.92.27.50:8080",
     "trustSelfSigned": "true"
   },
-  "register": true,
+  "register": false,
   "heartbeat": true
 }
