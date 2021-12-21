@@ -1,0 +1,10 @@
+{
+  "api": {
+    "username": "root@openhim.org",
+    "password": "PhoneField",
+    "apiURL": "https://23.92.27.50:8080",
+    "trustSelfSigned": "true"
+  },
+  "register": true,
+  "heartbeat": true
+}

@@ -1,0 +1,93 @@
+{
+  "urn": "urn:uuid:ed4a5bd0-6228-11ec-ba4e-27b318b7ffc2",
+  "version": "0.0.1",
+  "name": "routing-mediator-js",
+  "description": "This is a mediator for routing to different routes systems using mediator",
+  "defaultChannelConfig": [
+    {
+      "name": "routing-mediator-js",
+      "urlPattern": "/elmis-orders",
+      "alerts": [],
+      "txRerunAcl": [],
+      "txViewFullAcl": [],
+      "txViewAcl": [],
+      "properties": [],
+      "matchContentTypes": [],
+      "routes": [
+        {
+          "name": "routing-mediator-js Route",
+          "host": "localhost",
+          "port": "7000",
+          "primary": true,
+          "type": "http"
+        }
+      ],
+      "allow": [
+        "admin"
+      ],
+      "type": "http"
+    }
+  ],
+  "endpoints": [
+    {
+      "name": "routing-mediator-js Route",
+      "host": "localhost",
+      "path": "/",
+      "port": "7000",
+      "primary": true,
+      "type": "http"
+    }
+  ],
+  "configDefs": [
+    {
+      "param": "gothomis_url",
+      "displayName": "GOTHOMIS URL",
+      "description": "The URL of the GOTHOMIS upstream of the mediator",
+      "type": "string",
+      "template": []
+    },
+    {
+      "param": "afyacare_url",
+      "displayName": "AfyaCare URL",
+      "description": "The URL of the AfyaCare upstream of the mediator",
+      "type": "string",
+      "template": []
+    },
+    {
+      "param": "afyacare_username",
+      "displayName": "AfyaCare Username",
+      "description": "The Username of the AfyaCare upstream of the mediator",
+      "type": "string",
+      "template": []
+    },
+    {
+      "param": "afyacare_password",
+      "displayName": "AfyaCare Password",
+      "description": "The Password of the AfyaCare upstream of the mediator",
+      "type": "password",
+      "template": []
+    },
+    {
+      "param": "gothomis_username",
+      "displayName": "GOTHOMIS Username",
+      "description": "The Username of the GOTHOMIS upstream of the mediator",
+      "type": "string",
+      "template": []
+    },
+    {
+      "param": "gothomis_password",
+      "displayName": "GOTHOMIS Password",
+      "description": "The Password of the GOTHOMIS upstream of the mediator",
+      "type": "password",
+      "template": []
+    }
+  ],
+  "config": {
+    "afyacare_url": "http://173.255.211.86:5001/sample-afya-care-destination",
+    "afyacare_username": "AfyaCare",
+    "afyacare_password": "Afyacare123",
+    "gothomis_url": "http://173.255.211.86:5001/sample-gothomis-destination",
+    "gothomis_username": "Gothomis",
+    "gothomis_password": "Gothomis123"
+  }
+}
