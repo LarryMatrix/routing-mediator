@@ -8,7 +8,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="hfr-mediator" />
-    <orderEntry type="module" module-name="ilakoze-mediator" />
   </component>
 </module>

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../../Mediators/hfr-mediator/.idea/hfr-mediator.iml" filepath="$PROJECT_DIR$/../../../Mediators/hfr-mediator/.idea/hfr-mediator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../ilakoze-mediator/.idea/ilakoze-mediator.iml" filepath="$PROJECT_DIR$/../ilakoze-mediator/.idea/ilakoze-mediator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/routing-mediator.iml" filepath="$PROJECT_DIR$/.idea/routing-mediator.iml" />
     </modules>
   </component>
